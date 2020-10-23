@@ -11,6 +11,7 @@ from fooApp.models import User
 
 import json
 
+
 app = Flask(__name__)
 
 app.config['MONGO_DBNAME'] = 'foodb'
